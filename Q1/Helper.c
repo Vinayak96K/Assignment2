@@ -13,6 +13,7 @@ void PrintEven(int iNo)
     if(iNo<=0)
     {
         printf("Error:Incorrect input.\n");
+        return;
     }
 
     int iCnt=0;
